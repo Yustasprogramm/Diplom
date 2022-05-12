@@ -1,0 +1,368 @@
+.page__header {
+    padding: 50px 13rem;
+}
+
+.services {
+    margin-bottom: 213px;
+}
+
+.page-header__item {
+    position: relative;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 11px;
+}
+
+.page-header__item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 107px;
+    height: 2px;
+    background: #FFC222;
+}
+
+.page__header {
+    margin-bottom: 81px;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.l0 {
+    left: auto;
+}
+
+.colorWhite {
+    color: #FFF;
+}
+
+.services__body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 58px;
+    padding: 0 13rem;
+}
+
+.services__body:not(:last-child) {
+    margin-bottom: 166px;
+}
+
+.services__column {
+    background: #F9F9F9;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.services-column__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #858585;
+    padding: 32px;
+}
+
+.container__blue {
+    background: #324451;
+    padding: 47px 0;
+}
+
+.company__item {
+    display: flex;
+    gap: 63px;
+    padding: 0 13rem;
+}
+
+.company-info__header {
+    position: relative;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.beforeElem {
+    position: relative;
+}
+
+.beforeElem::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -126px;
+    width: 107px;
+    height: 2px;
+    transform: translateY(-50%);
+    background: #FFC222;
+}
+
+.afterElem {
+    position: relative;
+}
+
+.afterElem::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 170px;
+    width: 107px;
+    height: 2px;
+    transform: translateY(-50%);
+    background: #FFC222;
+}
+
+.company-info__description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 64px;
+    padding-bottom: 84px;
+}
+
+.company__card {
+    position: relative;
+    width: 547px;
+    padding: 104px 65px;
+    background: #FFF;
+}
+
+.company__card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 67px;
+    width: 66px;
+    height: 51px;
+    background: url("../img/Rectangle 38.png") center no-repeat;
+    background-size: cover;
+}
+
+.company-card__header {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+.company-card__description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.company__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 186px;
+    margin-top: 64px;
+}
+
+.company-list__header {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.company-list__description {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    text-transform: lowercase;
+    color: #FFC222;
+    margin-bottom: 200px;
+}
+
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+    position: absolute;
+    display: block;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+    width: 16px;
+    height: 25px;
+    background: #000;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    width: 16px;
+    height: 25px;
+    background: #000;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+.feedback__item {
+    padding: 10rem 13rem;
+}
+
+.slider__item {
+    position: relative;
+    display: flex;
+    gap: 109px;
+}
+
+.user__name {
+    width: 100%;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 21px;
+}
+
+.user__comment {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.slider__avatar {
+    width: 189px;
+    height: 189px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.program__container {
+    padding: 0 13rem;
+    margin-bottom: 191px;
+}
+
+.program__title {
+    width: 100%;
+    padding: 46px 65px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 47px;
+}
+
+.program-title__elem {
+    width: 67px;
+    height: 46px;
+    background: url("../img/icons8-цитата-справа-50 2.png") center no-repeat #FFC93E;
+    background-size: 22px;
+    border-radius: 1px;
+    margin-bottom: 27px;
+}
+
+.program-title__header {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 27px;
+}
+
+.program-title__description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.program__img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.program__img div {
+    display: flex;
+    gap: 43px;
+    width: 501px;
+}
+
+.program-img__item {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.program__bg {
+    width: 229px;
+    height: 213px;
+}
+
+.program__description {
+    padding: 67px 111px;
+}
+
+.program-description__item {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.program-img__description {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    color: #858585;
+}
+
+.mb100 {
+    margin-bottom: 100px;
+}
+
+.colorYellow {
+    color: #FFC222;
+}
